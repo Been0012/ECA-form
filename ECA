@@ -1,0 +1,71 @@
+<form action="/submit" method="POST">
+  <h1>Activity Sign Up Form</h1>
+  <p>Please fill in the following details and choose an activity for each afternoon.</p>
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name" required><br>
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" required><br>
+  <label for="class">Class:</label>
+  <select id="class" name="class" required>
+    <option value="A">A</option>
+    <option value="B">B</option>
+    <option value="C">C</option>
+    <option value="D">D</option>
+  </select><br>
+  <fieldset>
+    <legend>Choose an activity for Monday afternoon:</legend>
+    <input type="radio" id="monday1" name="monday" value="Art">
+    <label for="monday1">Art</label>
+    <input type="radio" id="monday2" name="monday" value="Sports">
+    <label for="monday2">Sports</label>
+    <input type="radio" id="monday3" name="monday" value="Music">
+    <label for="monday3">Music</label>
+    <input type="radio" id="monday4" name="monday" value="Science">
+    <label for="monday4">Science</label>
+  </fieldset>
+  <fieldset>
+    <legend>Choose an activity for Tuesday afternoon:</legend>
+    <input type="radio" id="tuesday1" name="tuesday" value="Cooking">
+    <label for="tuesday1">Cooking</label>
+    <input type="radio" id="tuesday2" name="tuesday" value="Drama">
+    <label for="tuesday2">Drama</label>
+    <input type="radio" id="tuesday3" name="tuesday" value="Math">
+    <label for="tuesday3">Math</label>
+    <input type="radio" id="tuesday4" name="tuesday" value="Reading">
+    <label for="tuesday4">Reading</label>
+  </fieldset>
+  <fieldset>
+    <legend>Choose an activity for Wednesday afternoon:</legend>
+    <input type="radio" id="wednesday1" name="wednesday" value="Chess">
+    <label for="wednesday1">Chess</label>
+    <input type="radio" id="wednesday2" name="wednesday" value="Dance">
+    <label for="wednesday2">Dance</label>
+    <input type="radio" id="wednesday3" name="wednesday" value="Coding">
+    <label for="wednesday3">Coding</label>
+    <input type="radio" id="wednesday4" name="wednesday" value="History">
+    <label for="wednesday4">History</label>
+  </fieldset>
+  <fieldset>
+    <legend>Choose an activity for Thursday afternoon:</legend>
+    <input type="radio" id="thursday1" name="thursday" value="Yoga">
+    <label for="thursday1">Yoga</label>
+    <input type="radio" id="thursday2" name="thursday" value="Photography">
+    <label for="thursday2">Photography</label>
+    <input type="radio" id="thursday3" name="thursday" value="Writing">
+    <label for="thursday3">Writing</label>
+    <input type="radio" id="thursday4" name="thursday" value="Geography">
+    <label for="thursday4">Geography</label>
+  </fieldset>
+  <fieldset>
+    <legend>Choose an activity for Friday afternoon:</legend>
+    <input type="radio" id="friday1" name="friday" value="Gardening">
+    <label for="friday1">Gardening</label>
+    <input type="radio" id="friday2" name="friday" value="Singing">
+    <label for="friday2">Singing</label>
+    <input type="radio" id="friday3" name="friday" value="Drawing">
+    <label for="friday3">Drawing</label>
+    <input type="radio" id="friday4" name="friday" value="Physics">
+    <label for="friday4">Physics</label>
+  </fieldset>
+  <input type="submit" value="Submit">
+</form>
